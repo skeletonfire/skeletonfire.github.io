@@ -6759,9 +6759,6 @@ h1{
   font-size: 100px;
   text-align: center;
 }
-th, td, tr{
-  background-color: grey;
-}
 th{
   color: white;
   width: 30%;
@@ -6793,4 +6790,7 @@ p{
 }
 .top{
   margin-left: 47%;
+}
+th, td, tr{
+  background-color: grey;
 }
