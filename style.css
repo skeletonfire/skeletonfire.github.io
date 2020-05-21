@@ -6750,15 +6750,17 @@ button.close {
   }
 }
 body{
-  background-color: rgb(255, 153, 179,0.3);
+  background-color: rgb(0, 0, 0);
 }
 h1{
   text-decoration: underline;
   font-family: 'Indie Flower', Cursive;
+  color: rgb(0,255,255);
   font-size: 100px;
   text-align: center;
 }
 th{
+  color: red;
   width: 30%;
   padding: 1.6%;
   font-family: 'Indie Flower', Cursive;
@@ -6772,6 +6774,7 @@ td{
   padding: 1.6%;
 }
 p{
+  color: white;
   font-family: Georgia, Cursive;
   text-align: center;
   font-size: 27px;
@@ -6783,7 +6786,7 @@ p{
   font-size: 30px;
   font-family: Helvetica;
   font-weight: bold;
-  color: rgb(0, 255, 0);
+  color: blue;
 }
 .top{
   margin-left: 47%;
