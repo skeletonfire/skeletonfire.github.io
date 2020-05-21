@@ -1,0 +1,33 @@
+*{
+  background-color: rgb(230,230,230);
+}
+body{
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 10px solid rgb(150,150,150);
+  font-size: 28px;
+  font-family: 'Raleway', sans-serif;
+}
+.first{
+  border-left: 10px solid rgb(100,100,100);
+}
+p{
+  margin-left: 5%;
+  margin-right: 5%;
+}
+hr{
+  border-bottom: 10px solid rgb(200,200,200);
+  margin-left: 15%;
+  margin-right: 15%;
+}
+h3{
+  letter-spacing: 2px;
+  margin-left: 5%;
+  margin-right: 5%;
+  text-transform: uppercase;
+  color: rgb(12,123,200);
+}
+h1{
+  margin-left: 5%;
+  margin-right: 5%;
+}
