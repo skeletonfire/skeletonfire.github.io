@@ -8,13 +8,6 @@ h1{
   font-size: 200px;
   text-align: center;
 }
-th{
-  color: black;
-  width: 30%;
-  padding: 1.6%;
-  font-family: 'Indie Flower', Cursive;
-  font-size: 30px;
-}
 .txt{
   color: black;
   font-family: 'Indie Flower', Cursive;
@@ -22,10 +15,6 @@ th{
 }
 img{
   width: 100%;
-}
-td{
-  width: 30%;
-  padding: 1.6%;
 }
 p{
   color: black;
@@ -37,11 +26,20 @@ p{
   border-radius: 20px;
 }
 .container a{
-  font-size: 20px;
+  font-size: 30px;
   font-family: Helvetica;
   font-weight: bold;
   color: white;
 }
 .top{
   margin-left: 47%;
+}
+.navbar{
+  min-height: 60px;
+}
+.jumbotron{
+  margin-top: 100px;
+}
+.navbar-inverse .navbar-nav>li>a {
+    color: #429bf5;
 }
