@@ -1,45 +1,54 @@
-body{
-  background-color: white;
+#top{
+background-color: #173F5F;
+}
+#h1{
+  margin-bottom: 100px;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+    color: #f71414;
+    font-size: 40;
+    font-family: georgia;
+    font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #f71414;
+    font-size: 40;
+    font-family: georgia;
+    font-weight: bold;
+}
+.navbar-dark .navbar-toggler-icon {
+    background-image: url("dots.png");
 }
 h1{
-  text-decoration: underline;
-  font-family: 'Indie Flower', Cursive;
-  color: black;
-  font-size: 200px;
+  padding-top: 100px;
   text-align: center;
+  font-family: 'Odibee Sans', cursive;
+  color: red;
 }
-.txt{
-  color: black;
-  font-family: 'Indie Flower', Cursive;
-  font-size: 36px;
-}
-img{
-  width: 100%;
+.row{
+  margin-bottom: 100px;
 }
 p{
-  color: black;
-  font-family: Georgia, Cursive;
-  text-align: center;
-  font-size: 27px;
-}
-.img-rounded {
-  border-radius: 20px;
-}
-.container a{
-  font-size: 30px;
-  font-family: Helvetica;
+  font-size: 40;
+  font-family: georgia;
   font-weight: bold;
-  color: white;
 }
-.top{
-  margin-left: 47%;
+#foot{
+  margin-left: 30%;
+  margin-right:30%;
 }
-.navbar{
-  min-height: 60px;
+#blog1::first-letter{
+  font-size: 50px;
+  color: red;
 }
-.jumbotron{
-  margin-top: 100px;
+#foot2{
+  margin-top: 50px;
+  color:white;
 }
-.navbar-inverse .navbar-nav>li>a {
-    color: #429bf5;
+form{
+  margin-top: 50px;
+}
+#bottom{
+  padding-top: 23px;
+  background-color: grey;
 }
