@@ -34,8 +34,8 @@ p{
   font-weight: bold;
 }
 #foot{
-  margin-left: 20%;
-  margin-right:20%;
+  margin-left: 30%;
+  margin-right:30%;
 }
 #blog1::first-letter{
   font-size: 50px;
@@ -51,4 +51,16 @@ form{
 #bottom{
   padding-top: 23px;
   background-color: grey;
+}
+.alert{
+  padding: 10px;
+  background-color: green;
+  color: white;
+  display: none;
+}
+.carousel-control-next-icon {
+    background-image: url("next.svg");
+}
+.carousel-control-prev-icon {
+    background-image: url("back.svg");
 }
