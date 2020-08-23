@@ -1,66 +1,29 @@
-#top{
-background-color: #173F5F;
+.class1{
+    background-color: aqua;
+    color:#FF4136;
 }
-#h1{
-  margin-bottom: 100px;
+.class2{
+    background-color: black;
+    color:white;
 }
-.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
-    color: #f71414;
-    font-size: 40;
-    font-family: georgia;
-    font-weight: bold;
+.class4{
+    background-color:#FF4136;
+    color:#FFDC00;
 }
-.navbar-dark .navbar-nav .nav-link {
-    color: #f71414;
-    font-size: 40;
-    font-family: georgia;
-    font-weight: bold;
+.class6{
+    background-color: #F012BE ;
+    color:aqua;
 }
-.navbar-dark .navbar-toggler-icon {
-    background-image: url("dots.png");
+.class8{
+    background-color:#01FF70 ;
+    color:black;
 }
-h1{
-  padding-top: 100px;
-  text-align: center;
-  font-family: 'Odibee Sans', cursive;
-  color: red;
+.class10{
+    background-color:#FFDC00 ;
+    color: #F012BE;
 }
-.row{
-  margin-bottom: 100px;
-}
-p{
-  font-size: 40;
-  font-family: georgia;
-  font-weight: bold;
-}
-#foot{
-  margin-left: 30%;
-  margin-right:30%;
-}
-#blog1::first-letter{
-  font-size: 50px;
-  color: red;
-}
-#foot2{
-  margin-top: 50px;
-  color:white;
-}
-form{
-  margin-top: 50px;
-}
-#bottom{
-  padding-top: 23px;
-  background-color: grey;
-}
-.alert{
-  padding: 10px;
-  background-color: green;
-  color: white;
-  display: none;
-}
-.carousel-control-next-icon {
-    background-image: url("next.svg");
-}
-.carousel-control-prev-icon {
-    background-image: url("back.svg");
+.nice{
+    text-align: center;
+    margin-left: auto;
+    margin-top: 23%;
 }
