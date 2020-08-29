@@ -1,13 +1,354 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Color Changer</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="class1 nice">
-    <h1>Color Changer</h1>
-    <script src="javascript.js"></script>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <title>Picture Display</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
+      </head>
+  <body>
+    <!-- form here the code is bootstrap navbar -->
+    <nav class="navbar navbar-expand-md navbar-dark rounded fixed-top" style="background-color:rgb(0, 180, 165);">
+  <a class="navbar-brand" href="#"><i class="fa fa-battery-three-quarters" aria-hidden="true"></i></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Contact</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          More
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Sign Up</a>
+          <a class="dropdown-item" href="#">Github</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Nothing to see here</a>
+        </div>
+      </li>
+      </ul>
+        <form class="form-inline" action="index.html" method="get">
+<button type="button" class="btn btn-primary mr-1" data-toggle="modal" data-target="#myModal1">
+  Login
+</button>
+<button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+  Sign Up
+</button>
+</form>
+  </div>
+</nav>
+          <a class="dropdown-item" href="https://mailchi.mp/17f3b59b229a/sign-up" target="_blank">Sign Up</a>  
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous" charset="utf-8"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous" charset="utf-8"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous" charset="utf-8"></script>
+<!-- Mine -->
+<div class="container">
+  <div class="jumbotron">
+      <h1>Songs I like!</h1><br><br>
+  </div>
+</div>
+  <div class="row">
+      <div class="col-lg-4">
+        <div class="content"> 
+          <a href="#">
+            <div class="content-overlay"></div> 
+            <img class="content-image shadow p-3 mb-5 bg-white rounded" src="sound.png">
+             <div class="content-details fadeIn-bottom">
+               <h3 class="content-title">Name</h3>
+               <p class="content-text">Text</p>
+             </div>
+          </a> 
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="content"> 
+        <a href="https://open.spotify.com/track/1KcXKTF5TQqMjD7aXWURQY?si=-g4LIpKKTuOzBq91o5t4Iw" target="_blank">
+        <div class="content-overlay"></div> 
+        <img src="sound.png" alt="Picture"class="content-image shadow p-3 mb-5 bg-white rounded">
+        <div class="content-details fadeIn-bottom">
+          <h3 class="content-title">Name</h3>
+          <p class="content-text">Text</p>
+        </div>
+     </a> 
+      </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="content"> 
+          <a href="https://open.spotify.com/track/1KcXKTF5TQqMjD7aXWURQY?si=-g4LIpKKTuOzBq91o5t4Iw" target="_blank">
+          <div class="content-overlay"></div> 
+          <img src="sound.png" alt="Picture"class="content-image shadow p-3 mb-5 bg-white rounded">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Name</h3>
+            <p class="content-text">Text</p>
+          </div>
+       </a> 
+        </div>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-lg-4">
+        <div class="content"> 
+          <a href="https://open.spotify.com/track/1KcXKTF5TQqMjD7aXWURQY?si=-g4LIpKKTuOzBq91o5t4Iw" target="_blank">
+          <div class="content-overlay"></div> 
+          <img src="sound.png" alt="Picture"class="content-image shadow p-3 mb-5 bg-white rounded">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Name</h3>
+            <p class="content-text">Text</p>
+          </div>
+       </a> 
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="content"> 
+          <a href="https://open.spotify.com/track/1KcXKTF5TQqMjD7aXWURQY?si=-g4LIpKKTuOzBq91o5t4Iw" target="_blank">
+          <div class="content-overlay"></div> 
+          <img src="sound.png" alt="Picture"class="content-image shadow p-3 mb-5 bg-white rounded">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Name</h3>
+            <p class="content-text">Text</p>
+          </div>
+       </a> 
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="content"> 
+          <a href="https://open.spotify.com/track/1KcXKTF5TQqMjD7aXWURQY?si=-g4LIpKKTuOzBq91o5t4Iw" target="_blank">
+          <div class="content-overlay"></div> 
+          <img src="sound.png" alt="Picture"class="content-image shadow p-3 mb-5 bg-white rounded">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Name</h3>
+            <p class="content-text">Text</p>
+          </div>
+       </a> 
+        </div>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-lg-4">
+        <div class="content"> 
+          <a href="https://open.spotify.com/track/1KcXKTF5TQqMjD7aXWURQY?si=-g4LIpKKTuOzBq91o5t4Iw" target="_blank">
+          <div class="content-overlay"></div> 
+          <img src="sound.png" alt="Picture"class="content-image shadow p-3 mb-5 bg-white rounded">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Name</h3>
+            <p class="content-text">Text</p>
+          </div>
+       </a> 
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="content"> 
+          <a href="https://open.spotify.com/track/1KcXKTF5TQqMjD7aXWURQY?si=-g4LIpKKTuOzBq91o5t4Iw" target="_blank">
+          <div class="content-overlay"></div> 
+          <img src="sound.png" alt="Picture"class="content-image shadow p-3 mb-5 bg-white rounded">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Name</h3>
+            <p class="content-text">Text</p>
+          </div>
+       </a> 
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="content"> 
+          <a href="https://open.spotify.com/track/1KcXKTF5TQqMjD7aXWURQY?si=-g4LIpKKTuOzBq91o5t4Iw" target="_blank">
+          <div class="content-overlay"></div> 
+          <img src="sound.png" alt="Picture"class="content-image shadow p-3 mb-5 bg-white rounded">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Name</h3>
+            <p class="content-text">Text</p>
+          </div>
+       </a> 
+        </div>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-lg-4">
+        <div class="content"> 
+          <a href="https://open.spotify.com/track/1KcXKTF5TQqMjD7aXWURQY?si=-g4LIpKKTuOzBq91o5t4Iw" target="_blank">
+          <div class="content-overlay"></div> 
+          <img src="sound.png" alt="Picture"class="content-image shadow p-3 mb-5 bg-white rounded">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Name</h3>
+            <p class="content-text">Text</p>
+          </div>
+       </a> 
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="content"> 
+          <a href="https://open.spotify.com/track/1KcXKTF5TQqMjD7aXWURQY?si=-g4LIpKKTuOzBq91o5t4Iw" target="_blank">
+          <div class="content-overlay"></div> 
+          <img src="sound.png" alt="Picture"class="content-image shadow p-3 mb-5 bg-white rounded">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Name</h3>
+            <p class="content-text">Text</p>
+          </div>
+       </a> 
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="content"> 
+          <a href="https://open.spotify.com/track/1KcXKTF5TQqMjD7aXWURQY?si=-g4LIpKKTuOzBq91o5t4Iw" target="_blank">
+          <div class="content-overlay"></div> 
+          <img src="sound.png" alt="Picture"class="content-image shadow p-3 mb-5 bg-white rounded">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Name</h3>
+            <p class="content-text">Text</p>
+          </div>
+       </a> 
+        </div>
+      </div>
+   </div>
+   <div class="row">
+      <div class="col-lg-4">
+        <div class="content"> 
+          <a href="https://open.spotify.com/track/1KcXKTF5TQqMjD7aXWURQY?si=-g4LIpKKTuOzBq91o5t4Iw" target="_blank">
+          <div class="content-overlay"></div> 
+          <img src="sound.png" alt="Picture"class="content-image shadow p-3 mb-5 bg-white rounded">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Name</h3>
+            <p class="content-text">Text</p>
+          </div>
+       </a> 
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="content"> 
+          <a href="https://open.spotify.com/track/1KcXKTF5TQqMjD7aXWURQY?si=-g4LIpKKTuOzBq91o5t4Iw" target="_blank">
+          <div class="content-overlay"></div> 
+          <img src="sound.png" alt="Picture"class="content-image shadow p-3 mb-5 bg-white rounded">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Name</h3>
+            <p class="content-text">Text</p>
+          </div>
+       </a> 
+        </div>
+      </div>
+      <div class="col-lg-4">
+        <div class="content"> 
+          <a href="https://open.spotify.com/track/1KcXKTF5TQqMjD7aXWURQY?si=-g4LIpKKTuOzBq91o5t4Iw" target="_blank">
+          <div class="content-overlay"></div> 
+          <img src="sound.png" alt="Picture"class="content-image shadow p-3 mb-5 bg-white rounded">
+          <div class="content-details fadeIn-bottom">
+            <h3 class="content-title">Name</h3>
+            <p class="content-text">Text</p>
+          </div>
+       </a> 
+        </div>
+      </div>
+   </div>
+   <div class="container">
+    <!-- Button to Open the Modal -->
+  
+    <!-- The Modal -->
+    <div class="modal" id="myModal">
+      <div class="modal-dialog">
+        <div class="modal-content">
+        
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Picture Display</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          
+          <!-- Modal body -->
+          <div class="modal-body">
+            <h1>Sign Up</h1><br><br>
+    <form action="tables.html" method="get">
+      <label for="first">First Name: </label>
+      <input type="text" name="First-Name" id="first" placeholder="John" required></input>
+      <br><label for="last">Last Name: </label>
+      <input type="text" name="Last-Name" id="last" placeholder="Doe" required></input><br>
+      <br><label for="male">Male </label>
+      <input type="radio" name="gender" id="male" value="Male"></input>
+      <label for="female">Female </label>
+      <input type="radio" name="gender" id="female" value="Female"></input>
+      <label for="other">Other </label>
+      <input type="radio" name="gender" id="other" value="Other"></input><br>
+      <br><label for="email">Email: </label>
+      <input type="email" name="email" id="email" placeholder="E-Mail" required></input>
+      <br><label for="passsword">Password: </label>
+      <input type="password" name="password" id="password" placeholder="Password" pattern=".{5,10}" title="Password should be 5 to 10 characers"></input><br>
+      <br><label for="select">Data: </label>
+      <select id="select" name="Date">
+        <option value="Day">1</option>
+        <option value="Day">2</option>
+        <option value="Day">3</option>
+        <option value="Day">9</option>
+      </select>
+      <select name="Month">
+        <option>August</option>
+        <option>January</option>
+        <option>May</option>
+      </select>
+      <select name="Year">
+        <option>545 B.C.</option>
+        <option>2001</option>
+        <option>2069</option>
+      </select><br>
+      <label for="terms">I agree to let my data be sold to companies</label>
+      <input type="checkbox" name="terms" id="terms" required></input><br>
+    </form>
+          </div>
+          
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="submit" name="submit">Submit</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+  </div>
+  <div class="container">
+    <!-- Button to Open the Modal -->
+  
+    <!-- The Modal -->
+    <div class="modal" id="myModal1">
+      <div class="modal-dialog">
+        <div class="modal-content">
+        
+          <!-- Modal Header -->
+          <div class="modal-header">
+            <h4 class="modal-title">Picture Display</h4>
+            <button type="button" class="close" data-dismiss="modal">&times;</button>
+          </div>
+          
+          <!-- Modal body -->
+          <div class="modal-body">
+            <h1>Login</h1><br><br>
+    <form action="tables.html" method="get">
+      <label for="email">Email: </label>
+      <input type="email" name="email" id="email" placeholder="E-Mail" required></input>
+      <br><label for="passsword">Password: </label>
+      <input type="password" name="password" id="password" placeholder="Password" pattern=".{5,10}" title="Password should be 5 to 10 characers"></input><br>
+    </form>
+          </div>
+          
+          <!-- Modal footer -->
+          <div class="modal-footer">
+            <button type="submit" name="submit">Submit</button>
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    
+  </div>
+     <br><br>
+   <div class="top">
+     <a href="#" class="btn btn-danger btn-lg active" role="button"><i class="fa fa-arrow-up" aria-hidden="true"></i></a>
+   </div>
 </body>
 </html>
