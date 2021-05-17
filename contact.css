@@ -1,0 +1,35 @@
+body {
+  background-color: #173f5f;
+}
+
+h1 {
+  font-size: 75px;
+  color: #f71414    ;
+  text-align: center;
+  border-color: black;
+  font-family: "Odibee Sans", cursive;
+}
+
+.container {
+  background-color: #ffffff;
+  font-size: 50px;
+  width: 1024px;
+  height: 500px;
+  margin-top: 160px;
+  margin-left: 425px;
+}
+
+.content {
+  position: relative;
+  top: 100px;
+  left: 100px;
+}
+
+.row {
+  margin-top: 10px;
+}
+
+.icon {
+  width: 75px;
+  height: 75px;
+}
