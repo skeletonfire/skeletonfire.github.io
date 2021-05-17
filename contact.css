@@ -3,6 +3,7 @@ body {
 }
 
 h1 {
+  margin-top:100px;
   font-size: 75px;
   color: #f71414    ;
   text-align: center;
@@ -13,16 +14,16 @@ h1 {
 .container {
   background-color: #ffffff;
   font-size: 50px;
-  width: 1024px;
-  height: 500px;
-  margin-top: 160px;
-  margin-left: 425px;
+  width: 70%;
+  height: 70%;
+  margin-top: 10%;
+  margin-left: 10%px;
 }
 
 .content {
   position: relative;
-  top: 100px;
-  left: 100px;
+  top: 10%;
+  left: 10%;
 }
 
 .row {
@@ -32,4 +33,19 @@ h1 {
 .icon {
   width: 75px;
   height: 75px;
+}
+.navbar-dark .navbar-nav .active>.nav-link, .navbar-dark .navbar-nav .nav-link.active, .navbar-dark .navbar-nav .nav-link.show, .navbar-dark .navbar-nav .show>.nav-link {
+  color: #f71414;
+  font-size: 40;
+  font-family: georgia;
+  font-weight: bold;
+}
+.navbar-dark .navbar-nav .nav-link {
+  color: #f71414;
+  font-size: 40;
+  font-family: georgia;
+  font-weight: bold;
+}
+.navbar-dark .navbar-toggler-icon {
+  background-image: url("dots.png");
 }
